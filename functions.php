@@ -50,25 +50,5 @@ if (!function_exists('wptrek_editor_enqueue')) {
 }
 add_action('enqueue_block_editor_assets', 'wptrek_editor_enqueue');
 
-
-/**
- * Preload the main font of your theme.
- *
- * @package WP Trek FSE
- * @since 1.0.0
- */
-if (!function_exists('wptrek_preload_webfonts')) {
-
-    function wptrek_preload_webfonts()
-    {
-        ?>
-        <link rel="preload"
-              href="<?= esc_url(get_theme_file_uri('assets/fonts/')); ?>"
-              as="font" type="font/woff2" crossorigin>
-        <?php
-    }
-}
-add_action('wp_head', 'wptrek_preload_webfonts');
-
 // Add block patterns
 require get_template_directory() . '/inc/block-patterns.php';
