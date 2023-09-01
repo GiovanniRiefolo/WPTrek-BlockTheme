@@ -1,8 +1,0 @@
-// Visual Studio Code
-.vscode/
-*.code-workspace
-.history/
-// JetBrains
-.idea/
-.fleet/
-.idea_modules/

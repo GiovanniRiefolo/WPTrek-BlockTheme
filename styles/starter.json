@@ -1,0 +1,124 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "title": "Starter",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "color": "#F6F2EC",
+          "name": "Base",
+          "slug": "base"
+        },
+        {
+          "color": "#21251F",
+          "name": "Contrast",
+          "slug": "contrast"
+        },
+        {
+          "color": "#5B4460",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "color": "#FCC263",
+          "name": "Secondary",
+          "slug": "secondary"
+        },
+        {
+          "color": "#E7A1A9",
+          "name": "Tertiary",
+          "slug": "tertiary"
+        }
+      ]
+    },
+    "layout": {
+      "wideSize": "1200px"
+    },
+    "spacing": {
+      "spacingSizes": [
+        {
+          "size": "clamp(0.625rem, 0.434rem + 0.61vw, 0.938rem)",
+          "name": "1",
+          "slug": "30"
+        },
+        {
+          "size": "clamp(1.25rem, 0.869rem + 1.22vw, 1.875rem)",
+          "name": "2",
+          "slug": "40"
+        },
+        {
+          "size": "clamp(1.875rem, 1.303rem + 1.83vw, 2.813rem)",
+          "name": "3",
+          "slug": "50"
+        },
+        {
+          "size": "clamp(2.5rem, 1.738rem + 2.44vw, 3.75rem)",
+          "name": "4",
+          "slug": "60"
+        },
+        {
+          "size": "clamp(2.813rem, 1.098rem + 5.49vw, 5.625rem)",
+          "name": "5",
+          "slug": "70"
+        },
+        {
+          "size": "clamp(3.75rem, 1.463rem + 7.32vw, 7.5rem)",
+          "name": "6",
+          "slug": "80"
+        }
+      ]
+    },
+    "typography": {
+      "fontSizes": [
+        {
+          "size": "clamp(0.875rem, 0.799rem + 0.24vw, 1rem)",
+          "name": "Tiny",
+          "slug": "tiny"
+        },
+        {
+          "size": "clamp(1rem, 0.924rem + 0.24vw, 1.125rem)",
+          "slug": "small"
+        },
+        {
+          "size": "clamp(1.125rem, 1.049rem + 0.24vw, 1.25rem)",
+          "name": "Normal",
+          "slug": "normal"
+        },
+        {
+          "size": "clamp(1.25rem, 1.021rem + 0.73vw, 1.625rem)",
+          "slug": "medium"
+        },
+        {
+          "size": "clamp(1.375rem, 1.07rem + 0.98vw, 1.875rem)",
+          "slug": "large"
+        },
+        {
+          "size": "clamp(1.75rem, 1.369rem + 1.22vw, 2.375rem)",
+          "slug": "x-large"
+        },
+        {
+          "size": "clamp(2.125rem, 1.706rem + 1.34vw, 2.813rem)",
+          "slug": "xx-large"
+        },
+        {
+          "size": "clamp(2.5rem, 1.966rem + 1.71vw, 3.375rem)",
+          "name": "Huge",
+          "slug": "huge"
+        },
+        {
+          "size": "clamp(3.375rem, 2.384rem + 3.17vw, 5rem)",
+          "name": "Gigantic",
+          "slug": "gigantic"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--source-serif-pro)",
+      "fontSize": "var(--wp--preset--font-size--normal)",
+      "lineHeight": "1.5"
+    }
+  }
+}
