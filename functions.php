@@ -1,6 +1,6 @@
 <?php
 /**
- * Functions and definitions
+ * Theme functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
@@ -9,7 +9,7 @@
  */
 
 /**
- * Theme setup
+ * Theme basic setup
  */
 if (!function_exists('wptrek_setup')) {
     function wptrek_setup()
@@ -49,6 +49,7 @@ if (!function_exists('wptrek_editor_enqueue')) {
     }
 }
 add_action('enqueue_block_editor_assets', 'wptrek_editor_enqueue');
+
 
 // Add block patterns
 require get_template_directory() . '/inc/block-patterns.php';
